@@ -1,7 +1,7 @@
 // Page preload ------------------
 $(window).load(function() {
     "use strict";
-    $(".loader").fadeOut(500, function() {
+    $(".loader").fadeOut(5000, function() {
         $("#main").animate({
             opacity: "1"
         }, 500);
